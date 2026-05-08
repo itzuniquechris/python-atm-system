@@ -1,82 +1,26 @@
-# 🏦 Python ATM System (Version 1)
+# Mini ATM System (Version 1.0)
 
-This is my first version of a simple ATM system built using Python.  
-It was created while learning programming fundamentals and logic building.
-
----
+This is a beginner-friendly ATM simulator built using Python. It handles basic bank transactions through a terminal interface.
 
 ## 🚀 Features
+- **Security:** PIN-protected login.
+- **Transactions:** Check balance, deposit funds, and withdraw cash.
+- **Validation:** Basic checks for insufficient funds and non-numeric inputs.
+- **Formatting:** Currency is displayed cleanly with two decimal places.
 
-- PIN authentication system
-- Check account balance
-- Deposit money
-- Withdraw money
-- Input validation (basic)
-- Loop system for continuous use
-- Exit option
+## 🛠️ Python Topics Used
+- Variables (Strings, Floats, Integers)
+- While Loops & Break/Continue
+- If-Elif-Else Logic
+- String Methods (`isdigit`)
+- F-Strings for clean output
 
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-
----
-
-## 📌 How It Works
-
-1. User enters PIN
-2. If correct → access granted
-3. User sees main menu:
-   - Check Balance
-   - Deposit Money
-   - Withdraw Money
-   - Exit
-4. System runs in loop until user exits
+## 🌱 Evolution: Version 2.0 (Coming Soon!)
+I am currently a **Python beginner**, but I plan to evolve this project as I learn more. In the next version, I hope to add:
+- Multiple user accounts.
+- Transaction history (mini-statement).
+- A limit on PIN login attempts.
+- Data persistence (saving balance to a file).
 
 ---
-
-## 💻 Example Output
-
---- WELCOME TO PYTHON BOOTCAMP ATM ---
-
-Enter your 4-digit PIN: 1234  
-[✓] PIN Verified. Welcome back!
-
----------- MAIN MENU ----------
-1. Check Balance
-2. Deposit Money
-3. Withdraw Money
-4. Exit
-
-Choose an option: 1  
-[i] Your current balance is: $1000.00
-
----
-
-## 🧠 What I Learned
-
-- while loops
-- if / elif / else statements
-- user input handling
-- variables and data types
-- basic error checking
-- program flow logic
-
----
-
-## 📈 Future Improvements (Version 2)
-
-- Better input validation
-- Transaction history
-- Improved UI messages
-- Cleaner code structure (functions)
-- Security improvements
-
----
-
-## ⚠️ Note
-
-This is Version 1 of my ATM project and will be improved over time as I learn more Python.
-
----
+*Created as part of my Python learning journey.*
