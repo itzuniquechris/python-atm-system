@@ -1,39 +1,37 @@
-# SCRIPT: Documentation Upgrade to Version 2.0
-# ACTION: Reflecting the evolution from Version 1.0
+# 🏧 Python BootCamp ATM (Version 2.0)
 
-new_readme = """
-# Mini ATM System (Version 2.0) 🚀
+A lightweight, terminal-based ATM simulator built with Python. This project demonstrates core programming logic, user input handling, and state management.
 
-I have successfully upgraded this project from Version 1.0! This version marks a major step forward in my Python learning journey.
-
-## ✅ New in Version 2.0
-- **Transaction History:** Now tracks all deposits and withdrawals during the session.
-- **Improved Input Validation:** Uses `.isdigit()` to prevent crashes from non-numeric inputs.
-- **Enhanced UI:** Cleaner terminal menus and status icons ([✓], [!], [i]).
+## 🌟 What's New in v2.0
+- **Transaction History:** Added tracking for deposits and withdrawals during the active session.
+- **Robust Validation:** Implemented `.isdigit()` checks to prevent system crashes on invalid inputs.
+- **Enhanced UI:** Added status icons (`[✓]`, `[!]`, `[i]`) and improved menu formatting for a better user experience.
 
 ## 🚀 Features
-- **Security:** PIN-protected login.
-- **Transactions:** Check balance, deposit funds, and withdraw cash.
-- **Formatting:** Currency is displayed with two decimal places for a professional look.
+- **Secure Access:** PIN-protected entry system.
+- **Financial Operations:** 
+  - Real-time balance inquiries.
+  - Instant deposits with automated balance updates.
+  - Withdrawal system with **insufficient funds** protection.
+- **Logging:** View a summary of all transactions performed during the session.
 
-## 🛠️ Python Topics Mastered
-- Variables (Strings, Floats, Integers)
-- While Loops & Control Flow (Break/Continue)
-- List Operations (`append` and iteration)
-- Error Prevention & Conditional Logic
+## 🛠️ Technical Stack
+- **Language:** Python 3.x
+- **Logic used:** 
+  - `while` loops for continuous session management.
+  - `list` structures for transaction logging.
+  - `f-strings` for precise currency formatting (`.2f`).
+  - Conditional branching for transaction rules.
 
-## 🔮 Roadmap: Version 3.0
-- [ ] **Data Persistence:** Saving balance and history to a `.txt` or `.json` file.
-- [ ] **Security+:** Limit PIN login attempts (e.g., 3 strikes).
-- [ ] **Multi-User:** Support for multiple accounts/PINs.
+## 📂 Project Structure
+- `balance`: Tracks current liquid funds (Float).
+- `deposit[]` / `withdraw[]`: List-based storage for session history.
+- `correct_pin`: Hardcoded security key for authentication.
+
+## 🌱 Future Roadmap (v3.0)
+- [ ] **Data Persistence:** Save user data to a `.txt` file to keep balances after restart.
+- [ ] **Security Lock:** Automatic lockout after 3 failed PIN attempts.
+- [ ] **Multiple Users:** Transition from hardcoded values to a dictionary-based user database.
 
 ---
-*Evolved and coded by a dedicated Python learner.*
-"""
-
-def publish_v2_docs():
-    print("[SYSTEM] Archive: Version 1.0 documentation moved to history.")
-    print("[SYSTEM] Active: Version 2.0 README is now live.")
-    print("\n" + new_readme)
-
-publish_v2_docs()
+*Created as part of my Python learning journey. Feel free to explore the code!*
