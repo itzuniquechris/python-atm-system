@@ -1,26 +1,39 @@
-# Mini ATM System (Version 1.0)
+# SCRIPT: Documentation Upgrade to Version 2.0
+# ACTION: Reflecting the evolution from Version 1.0
 
-This is a beginner-friendly ATM simulator built using Python. It handles basic bank transactions through a terminal interface.
+new_readme = """
+# Mini ATM System (Version 2.0) 🚀
+
+I have successfully upgraded this project from Version 1.0! This version marks a major step forward in my Python learning journey.
+
+## ✅ New in Version 2.0
+- **Transaction History:** Now tracks all deposits and withdrawals during the session.
+- **Improved Input Validation:** Uses `.isdigit()` to prevent crashes from non-numeric inputs.
+- **Enhanced UI:** Cleaner terminal menus and status icons ([✓], [!], [i]).
 
 ## 🚀 Features
 - **Security:** PIN-protected login.
 - **Transactions:** Check balance, deposit funds, and withdraw cash.
-- **Validation:** Basic checks for insufficient funds and non-numeric inputs.
-- **Formatting:** Currency is displayed cleanly with two decimal places.
+- **Formatting:** Currency is displayed with two decimal places for a professional look.
 
-## 🛠️ Python Topics Used
+## 🛠️ Python Topics Mastered
 - Variables (Strings, Floats, Integers)
-- While Loops & Break/Continue
-- If-Elif-Else Logic
-- String Methods (`isdigit`)
-- F-Strings for clean output
+- While Loops & Control Flow (Break/Continue)
+- List Operations (`append` and iteration)
+- Error Prevention & Conditional Logic
 
-## 🌱 Evolution: Version 2.0 (Coming Soon!)
-I am currently a **Python beginner**, but I plan to evolve this project as I learn more. In the next version, I hope to add:
-- Multiple user accounts.
-- Transaction history (mini-statement).
-- A limit on PIN login attempts.
-- Data persistence (saving balance to a file).
+## 🔮 Roadmap: Version 3.0
+- [ ] **Data Persistence:** Saving balance and history to a `.txt` or `.json` file.
+- [ ] **Security+:** Limit PIN login attempts (e.g., 3 strikes).
+- [ ] **Multi-User:** Support for multiple accounts/PINs.
 
 ---
-*Created as part of my Python learning journey.*
+*Evolved and coded by a dedicated Python learner.*
+"""
+
+def publish_v2_docs():
+    print("[SYSTEM] Archive: Version 1.0 documentation moved to history.")
+    print("[SYSTEM] Active: Version 2.0 README is now live.")
+    print("\n" + new_readme)
+
+publish_v2_docs()
